@@ -11,6 +11,47 @@
 /* SECTION THREE */
 
 /* SECTION FOUR */
+ 
+body{
+  /* background-color: black; */
+}
+.arrow-pointer {
+  width: 70px;
+  height: 30px;
+  background: black;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+
+  
+}
+
+.arrow-pointer:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 15px solid black;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  .arrow-pointer:before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid black;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
 
 /* SECTION FIVE */
 
