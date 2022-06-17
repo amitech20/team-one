@@ -60,7 +60,7 @@ body{
 
 .container{
   /* background-color: white; */
-  height: 50%;
+  height: 60%;
   width: 100%;
   position: relative;
 }
@@ -68,11 +68,14 @@ body{
 
 .container .title{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  color: gray;
 }
 
-.container .title h1{
-    font-size: 50px;
+.container .title div{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 /* ---------first image---------  */
@@ -80,7 +83,9 @@ body{
 .container .conn1 .image1 img{
   width: 300px;
   height: 250px;
-  top: 200px;
+  top: 220px;
+  opacity: 80%;
+  left: 20px;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -93,10 +98,10 @@ body{
   width: 200px;
   color: gray;
   font-size: 13px;
-text-align: center;
-position: absolute;
-top: 320px;
-left: 50px;
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  left: 70px;
 
 
 }
@@ -113,9 +118,9 @@ left: 50px;
 
 .container .conn1 .one{
   position: absolute;
-  top:390px;
-  left: 100px;
-  width: 70px;
+  top:410px;
+  left: 120px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -123,29 +128,34 @@ left: 50px;
  /* ---------first Hero cancel ---------  */
 
 .container .conn1 .left1 img{
-  width: 25px;
+  width: 18px;
 }
 
 
 .container .conn1 .left1{
     position: absolute;
-    top: 360px;
-    width: 20px;
+    top: 420px;
+    width: 18px;
+    left: 70px;
     text-align: center;
+    color: white;
+    font-size: 20px;
+    
 }
 
 /* ---------first Hero life ---------  */
 
-.container .conn1 .right img{
-  width: 25px;
+.container .conn1 .right1 img{
+  width: 30px;
 }
 
 .container .conn1 .right1{
     position: absolute;
-    top: 360px;
+    top: 420px;
     width: 20px;
-    text-align: center;
-    left: 200px;
+    text-align: right;
+    left: 250px;
+    color: white;
 }
 
 
@@ -154,8 +164,9 @@ left: 50px;
 .container .conn2 .image2 img{
   width: 300px;
   height: 250px;
-  top: 200px;
+  top: 220px;
   left: 350px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -170,7 +181,7 @@ left: 50px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 300px;
+  top: 320px;
   left: 400px;
 
 
@@ -188,9 +199,9 @@ left: 50px;
 
 .container .conn2 .two{
   position: absolute;
-  top:390px;
+  top: 410px;
   left: 450px;
-  width: 90px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -198,30 +209,32 @@ left: 50px;
  /* ---------second Hero cancel ---------  */
 
 .container .conn2 .left2 img{
-  width: 25px;
+  width: 18px;
 }
 
 
 .container .conn2 .left2{
     position: absolute;
-    top: 400px;
+    top: 420px;
     width: 20px;
     left: 400px;
+    color: white;
     text-align: center;
 }
 
 /* ---------second Hero life ---------  */
 
 .container .conn2 .right2 img{
-  width: 25px;
+  width: 30px;
 }
 
 .container .conn2 .right2{
     position: absolute;
-    top: 360px;
+    top: 420px;
     width: 20px;
-    left: 450px;
-    text-align: center;
+    left: 580px;
+    color: white;
+    text-align: right;
   
 }
 
@@ -231,7 +244,8 @@ left: 50px;
   width: 300px;
   height: 250px;
   top: 220px;
-  left: 700px;
+  left: 690px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -246,7 +260,7 @@ left: 50px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 300px;
+  top: 320px;
   left: 760px;
 
 
@@ -264,9 +278,9 @@ left: 50px;
 
 .container .conn3 .three{
   position: absolute;
-  top:390px;
+  top: 410px;
   left: 810px;
-  width: 90px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -274,30 +288,32 @@ left: 50px;
  /* ---------third Hero cancel ---------  */
 
 .container .conn3 .left3 img{
-  width: 25px;
+  width: 18px;
 }
 
 
 .container .conn3 .left3{
     position: absolute;
-    top: 400px;
+    top: 420px;
     width: 20px;
-    left: 720px;
+    color: white;
+    left: 740px;
     text-align: center;
 }
 
-/* ---------second Hero life ---------  */
+/* ---------third Hero life ---------  */
 
 .container .conn3 .right3 img{
-  width: 25px;
+  width: 30px;
 }
 
 .container .conn3 .right3{
     position: absolute;
-    top: 360px;
+    top: 420px;
     width: 20px;
-    left: 820px;
-    text-align: center;
+    color: white;
+    left: 945px;
+    text-align: right;
 }
 
 
@@ -307,7 +323,8 @@ left: 50px;
   width: 300px;
   height: 250px;
   top: 220px;
-  left: 1000px;
+  left: 1030px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -322,8 +339,8 @@ left: 50px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 300px;
-  left: 1050px;
+  top: 320px;
+  left: 1080px;
 
 
 }
@@ -341,9 +358,9 @@ left: 50px;
 
 .container .conn4 .four{
   position: absolute;
-  top:390px;
-  left: 1100px;
-  width: 90px;
+  top:410px;
+  left: 1130px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -351,30 +368,32 @@ left: 50px;
  /* ---------fourth Hero cancel ---------  */
 
 .container .conn4 .left4 img{
-  width: 25px;
+  width: 18px;
 }
 
 
 .container .conn4 .left4{
     position: absolute;
-    top: 400px;
+    top: 420px;
     width: 20px;
-    left: 1020px;
+    color: white;
+    left: 1070px;
     text-align: center;
 }
 
 /* ---------fourth Hero life ---------  */
 
-.container .conn4 .right img{
-  width: 25px;
+.container .conn4 .right4 img{
+  width: 30px;
 }
 
 .container .conn4 .right4{
     position: absolute;
-    top: 360px;
+    top: 420px;
     width: 20px;
-    left: 1100px;
-    text-align: center;
+    color: white;
+    left: 1270px;
+    text-align: right;
 }
 
 /* ---------fifth image---------  */
@@ -386,6 +405,8 @@ left: 50px;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
+  opacity: 80%;
+  left: 20px;
 
 
 }
@@ -396,10 +417,10 @@ left: 50px;
   width: 200px;
   color: gray;
   font-size: 13px;
-text-align: center;
-position: absolute;
-top: 640px;
-left: 50px;
+  text-align: center;
+  position: absolute;
+  top: 620px;
+  left: 80px;
 
 
 }
@@ -416,9 +437,9 @@ left: 50px;
 
 .container .conn5 .five{
   position: absolute;
-  top: 710px;
-  left: 100px;
-  width: 70px;
+  top: 700px;
+  left: 120px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -426,7 +447,7 @@ left: 50px;
  /* ---------fifth Hero cancel ---------  */
 
 .container .conn5 .left5 img{
-  width: 25px;
+  width: 18px;
 }
 
 
@@ -435,20 +456,23 @@ left: 50px;
   top: 710px;
   width: 20px;
   text-align: center;
+  left: 60px;
+  color: white;
 }
 
 /* ---------fifth Hero life ---------  */
 
-.container .conn1 .right img{
-width: 25px;
+.container .conn5 .right5 img{
+width: 30px;
 }
 
 .container .conn5 .right5{
   position: absolute;
-  top: 710px;
+  top: 705px;
   width: 20px;
-  text-align: center;
-  left: 200px;
+  color: white;
+  text-align: right;
+  left: 250px;
 }
 
 
@@ -460,6 +484,7 @@ width: 25px;
   height: 250px;
   top: 500px;
   left: 350px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -474,8 +499,8 @@ width: 25px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 6400px;
-  left: 400px;
+  top: 620px;
+  left: 405px;
 
 
 }
@@ -492,9 +517,9 @@ width: 25px;
 
 .container .conn6 .six{
   position: absolute;
-  top: 710px;
-  left: 450px;
-  width: 90px;
+  top: 699px;
+  left: 455px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -502,7 +527,7 @@ width: 25px;
  /* ---------sixth Hero cancel ---------  */
 
 .container .conn6 .left6 img{
-  width: 25px;
+  width: 18px;
 }
 
 
@@ -510,6 +535,7 @@ width: 25px;
     position: absolute;
     top: 710px;
     width: 20px;
+    color: white;
     left: 400px;
     text-align: center;
 }
@@ -517,15 +543,16 @@ width: 25px;
 /* ---------sixth Hero life ---------  */
 
 .container .conn6 .right6 img{
-  width: 25px;
+  width: 30px;
 }
 
 .container .conn6 .right6{
     position: absolute;
-    top: 710px;
+    top: 705px;
     width: 20px;
-    left: 450px;
-    text-align: center;
+    color: white;
+    left: 590px;
+    text-align: right;
   
 }
 
@@ -536,6 +563,7 @@ width: 25px;
   height: 250px;
   top: 500px;
   left: 700px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -550,7 +578,7 @@ width: 25px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 640px;
+  top: 620px;
   left: 760px;
 
 
@@ -568,9 +596,9 @@ width: 25px;
 
 .container .conn7 .seven{
   position: absolute;
-  top: 710px;
+  top: 700px;
   left: 810px;
-  width: 90px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -578,7 +606,7 @@ width: 25px;
  /* ---------seventh Hero cancel ---------  */
 
 .container .conn7 .left7 img{
-  width: 25px;
+  width: 18px;
 }
 
 
@@ -586,22 +614,24 @@ width: 25px;
     position: absolute;
     top: 710px;
     width: 20px;
-    left: 720px;
+    left: 750px;
+    color: white;
     text-align: center;
 }
 
 /* ---------seventh Hero life ---------  */
 
 .container .conn7 .right7 img{
-  width: 25px;
+  width: 30px;
 }
 
 .container .conn7 .right7{
     position: absolute;
-    top: 710px;
+    top: 705px;
     width: 20px;
-    left: 820px;
-    text-align: center;
+    color: white;
+    left: 950px;
+    text-align: right;
 }
 
 
@@ -611,7 +641,8 @@ width: 25px;
   width: 300px;
   height: 250px;
   top: 500px;
-  left: 1000px;
+  left: 1030px;
+  opacity: 80%;
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -626,8 +657,8 @@ width: 25px;
   font-size: 13px;
   text-align: center;
   position: absolute;
-  top: 640px;
-  left: 1050px;
+  top: 620px;
+  left: 1090px;
 
 }
 
@@ -644,9 +675,9 @@ width: 25px;
 
 .container .conn8 .eight{
   position: absolute;
-  top: 710px;
-  left: 1100px;
-  width: 90px;
+  top: 700px;
+  left: 1140px;
+  width: 100px;
   font-size: 17px;
   height: 30px;
  }
@@ -654,7 +685,7 @@ width: 25px;
  /* ---------eight Hero cancel ---------  */
 
 .container .conn8 .left8 img{
-  width: 25px;
+  width: 18px;
 }
 
 
@@ -662,23 +693,28 @@ width: 25px;
     position: absolute;
     top: 710px;
     width: 20px;
-    left: 1020px;
+    color: white;
+    left: 1080px;
     text-align: center;
 }
 
 /* ---------eight Hero life ---------  */
 
-.container .conn8 .right img{
-  width: 25px;
+.container .conn8 .right8 img{
+  width: 30px;
+  
+  
+}
+.container .conn8 .right8 {
+  position: absolute;
+    top: 705px;
+    width: 20px;
+    color: white;
+    left: 1270px;
+    text-align: right;
+  
 }
 
-.container .conn8 .right8{
-    position: absolute;
-    top: 710px;
-    width: 20px;
-    left: 1100px;
-    text-align: center;
-}
 
 /* SECTION FIVE */
 
