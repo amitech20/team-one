@@ -10,11 +10,12 @@
 
 /* SECTION THREE */
 
+
+
 /* SECTION FOUR */
+
  
-body{
-  background-color: black;
-}
+/* ------black arrow------- */
 
 .arrow-pointer {
   width: 70px;
@@ -53,17 +54,53 @@ body{
     border-bottom: 15px solid transparent;
   }
 
-/* .container .progress1 div{
-    width: 100%;
-    height: 20%;
-} */
+
+/* -------Gray arrow--------- */
+
+  .pointer {
+    width: 100px;
+    height: 35px;
+    background: rgb(125, 123, 123);
+    position: relative;
+    
+  }
+  
+  .pointer:after {
+      content: '';
+      position: absolute;
+      left: -17px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-right: 17px solid rgb(125, 123, 123);
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent;
+    }
+  
+    .pointer:before {
+      content: '';
+      position: absolute;
+      right: -17px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 17px solid rgb(125, 123, 123);
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent;
+    }
+  
+/* ---------main body------- */
 
 .container{
-  /* background-color: white; */
-  height: 60%;
+background: rgb(74,3,10);
+background: linear-gradient(90deg, rgba(74,3,10,1) 0%, rgba(0,12,14,1) 11%);
+  height: 800px;
   width: 100%;
   position: relative;
+  z-index: -1;
+
 }
+
 /* ----------title --------*/
 
 .container .title{
@@ -119,11 +156,21 @@ body{
 .container .conn1 .one{
   position: absolute;
   top:410px;
-  left: 120px;
+  left: 115px;
   width: 100px;
   font-size: 17px;
   height: 30px;
  }
+
+ .container .conn1 .pointer{
+  position: absolute;
+  top:407px;
+  left: 115px;
+  z-index: -1;
+
+ }
+
+ 
 
  /* ---------first Hero cancel ---------  */
 
@@ -157,6 +204,19 @@ body{
     left: 250px;
     color: white;
 }
+
+/* --------first progress------------ */
+
+.container .conn1 .progress1 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn1 .progress1{
+
+  position: absolute;
+  top: 445px;
+  left: 105px;
+ }
 
 
 /* ---------second image---------  */
@@ -206,6 +266,15 @@ body{
   height: 30px;
  }
 
+ .container .conn2 .pointer{
+
+  position: absolute;
+  top: 407px;
+  left: 450px;
+  z-index: -1;
+
+ }
+
  /* ---------second Hero cancel ---------  */
 
 .container .conn2 .left2 img{
@@ -215,7 +284,7 @@ body{
 
 .container .conn2 .left2{
     position: absolute;
-    top: 420px;
+    top: 425px;
     width: 20px;
     left: 400px;
     color: white;
@@ -237,6 +306,19 @@ body{
     text-align: right;
   
 }
+
+/* --------second progress------------ */
+
+.container .conn2 .progress2 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn2 .progress2{
+
+  position: absolute;
+  top: 445px;
+  left: 440px;
+ }
 
 /* ---------third image---------  */
 
@@ -279,12 +361,20 @@ body{
 .container .conn3 .three{
   position: absolute;
   top: 410px;
-  left: 810px;
+  left: 800px;
   width: 100px;
   font-size: 17px;
   height: 30px;
  }
+ 
+ .container .conn3 .pointer{
 
+  position: absolute;
+  top: 407px;
+  left: 800px;
+  z-index: -1;
+
+ }
  /* ---------third Hero cancel ---------  */
 
 .container .conn3 .left3 img{
@@ -312,9 +402,24 @@ body{
     top: 420px;
     width: 20px;
     color: white;
-    left: 945px;
+    left: 935px;
     text-align: right;
 }
+
+
+/* --------third progress------------ */
+
+.container .conn3 .progress3 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn3 .progress3{
+
+  position: absolute;
+  top: 445px;
+  left: 795px;
+
+ }
 
 
 /* ---------fourth image---------  */
@@ -359,12 +464,23 @@ body{
 .container .conn4 .four{
   position: absolute;
   top:410px;
-  left: 1130px;
+  left: 1140px;
   width: 100px;
   font-size: 17px;
   height: 30px;
+
  }
 
+
+ .container .conn4 .pointer{
+
+  position: absolute;
+  top:407px;
+  left: 1140px;
+  z-index: -1;
+
+
+ }
  /* ---------fourth Hero cancel ---------  */
 
 .container .conn4 .left4 img{
@@ -377,7 +493,7 @@ body{
     top: 420px;
     width: 20px;
     color: white;
-    left: 1070px;
+    left: 1080px;
     text-align: center;
 }
 
@@ -395,6 +511,21 @@ body{
     left: 1270px;
     text-align: right;
 }
+
+/* --------fourth progress------------ */
+
+.container .conn4 .progress4 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn4 .progress4{
+
+  position: absolute;
+  top: 445px;
+  left: 1130px;
+ }
+
+
 
 /* ---------fifth image---------  */
 
@@ -438,10 +569,19 @@ body{
 .container .conn5 .five{
   position: absolute;
   top: 700px;
-  left: 120px;
+  left: 110px;
   width: 100px;
   font-size: 17px;
   height: 30px;
+ }
+
+ .container .conn5 .pointer{
+
+  position: absolute;
+  top: 697px;
+  left: 110px;
+  z-index: -1;
+
  }
 
  /* ---------fifth Hero cancel ---------  */
@@ -456,7 +596,7 @@ body{
   top: 710px;
   width: 20px;
   text-align: center;
-  left: 60px;
+  left: 65px;
   color: white;
 }
 
@@ -475,7 +615,18 @@ width: 30px;
   left: 250px;
 }
 
+/* --------fifth progress------------ */
 
+.container .conn5 .progress5 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn5 .progress5{
+
+  position: absolute;
+  top: 730px;
+  left: 100px;
+ }
 
 /* ---------sixth image---------  */
 
@@ -484,7 +635,7 @@ width: 30px;
   height: 250px;
   top: 500px;
   left: 350px;
-  opacity: 80%;
+  /* opacity: 100%; */
   border-radius: 30px;
   position: absolute;
   z-index: -1;
@@ -524,6 +675,14 @@ width: 30px;
   height: 30px;
  }
 
+ .container .conn6 .pointer{
+  position: absolute;
+  top: 696px;
+  left: 455px;
+  z-index: -1;
+
+ }
+
  /* ---------sixth Hero cancel ---------  */
 
 .container .conn6 .left6 img{
@@ -555,6 +714,21 @@ width: 30px;
     text-align: right;
   
 }
+
+
+/* --------sixth progress------------ */
+
+.container .conn6 .progress6 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn6 .progress6{
+
+  position: absolute;
+  top: 730px;
+  left: 445px;
+ }
+
 
 /* ---------seventh image---------  */
 
@@ -603,6 +777,15 @@ width: 30px;
   height: 30px;
  }
 
+ .container .conn7 .pointer{
+
+  position: absolute;
+  top: 697px;
+  left: 810px;
+  z-index: -1;
+
+ }
+
  /* ---------seventh Hero cancel ---------  */
 
 .container .conn7 .left7 img{
@@ -634,6 +817,20 @@ width: 30px;
     text-align: right;
 }
 
+
+
+/* --------seventh progress------------ */
+
+.container .conn7 .progress7 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn7 .progress7{
+
+  position: absolute;
+  top: 730px;
+  left: 795px;
+ }
 
 /* ---------eight image---------  */
 
@@ -682,6 +879,15 @@ width: 30px;
   height: 30px;
  }
 
+ .container .conn8 .pointer{
+
+  position: absolute;
+  top: 697px;
+  left: 1140px;
+  z-index: -1;
+
+ }
+
  /* ---------eight Hero cancel ---------  */
 
 .container .conn8 .left8 img{
@@ -714,6 +920,19 @@ width: 30px;
     text-align: right;
   
 }
+
+/* --------eight progress------------ */
+
+.container .conn8 .progress8 img{
+  display: inline;
+  width: 11px;
+}
+ .container .conn8 .progress8{
+
+  position: absolute;
+  top: 730px;
+  left: 1125px;
+ }
 
 
 /* SECTION FIVE */
